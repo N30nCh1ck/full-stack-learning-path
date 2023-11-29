@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "f53035f4e2cd4d07",
+    "type": "split",
+    "children": [
+      {
+        "id": "d19fc09e9fdd106b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50b5c9afd578a1d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📋 Learning Path.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0cc0724016baf877",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d28cb82e09e9fcf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e63878c68994b417",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9843bf48f8e6fdb3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f82703548e4d5c00",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "21662dbf4d2d14fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "405d6acce4a1c233",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2bafbded0a03998",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "📋 Learning Path.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7bb50d515e5a0ea5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "📋 Learning Path.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "706585998102184b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "54d0940210702cc7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "📋 Learning Path.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "50b5c9afd578a1d1",
+  "lastOpenFiles": [
+    "🌱 Phase 1/Setup Env.md",
+    "🌱 Phase 1/Git I.md",
+    "📋 Learning Path.md",
+    "🌱 Phase 1/🌱 Phase 1.md",
+    "Basic Git.md",
+    "🌱 Phase 1"
+  ]
+}
