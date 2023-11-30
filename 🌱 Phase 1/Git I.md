@@ -1,7 +1,7 @@
-Go to [[📋 Learning Path]]
+Go to [[Basic Git]]
 
 #### Init Git Repo
-create folder then create a file name `index.html` and add the following code.
+create folder then create a file name `index.html` and add the following code. 
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -17,12 +17,18 @@ create folder then create a file name `index.html` and add the following code.
 </html>
 ```
 
->Init your Git repository then commit message as "init git repo with index.html"
+Init your Git repository then commit message as "init git repo with index.html"
+
+**Document Hint**
+- [[Basic Git#Initial Git Repo]]
+- [[Basic Git#Config Git User]]
+- [[Basic Git#Add Changed Git]]
+- [[Basic Git#Git Commit Message]]
 
 #### Push Into GitHub
 If don't have GitHub go to the link: https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home.
 
->You can use any type of git cloud such as Gitlab or Bitbucket, but GitHub is a common sense.
+> You can use any kind of "Git Remote" such as Gitlab or Bitbucket, but GitHub is the default common sense.
 
 #### Clone & Add New Feature
 use `git clone` your repository into new directory on your local environment. then create a new branch call "feature" and checkout to the branch you just created one.

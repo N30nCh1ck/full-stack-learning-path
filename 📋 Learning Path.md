@@ -1,12 +1,13 @@
-To become a Full-Stack web developer the best language to start with is JavaScript. The phases below is step by step to learn about web development in these days.
+To become a Full-Stack web developer in these day the best language to start with is JavaScript. The phases below is step by step to learn about web development with assignments and documentations. you can *click* on ***Open graph view*** menu to see the learning path as a graph.
+
+![[open-graph-view.png]]
 
 #### 🌱 Phase 1
 1. [[Setup Env]]
-2. Basic Git
-	- [[Git I]]
-3. JavaScript
-4. HTML
-5. CSS
+2. [[Basic Git]]
+3. HTML
+4. CSS
+5. JavaScript
 6. Node Express JS (Rest API)
 7. Docker (Basic run images, volume)
 8. MySQL MongoDB (Require Docker)
