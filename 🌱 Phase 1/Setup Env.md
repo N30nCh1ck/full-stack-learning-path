@@ -3,8 +3,8 @@ Go to [[📋 Learning Path]]
 - Obsidian
 - VS Code
 - Git
+- Node.js
 - Docker
-- Node >= 18 or NVM
 - yarn (optional)
 
 ## Obsidian
@@ -58,7 +58,7 @@ download link: https://docs.docker.com/get-docker/
 
 ![[logo-docker.png]]
 
-select which one matches your OS then follow the description.
+select which one that match your OS then follow the description.
 
 ## Yarn (Optional)
 download link: https://classic.yarnpkg.com/lang/en/docs/install
@@ -67,4 +67,4 @@ download link: https://classic.yarnpkg.com/lang/en/docs/install
 
 
 
-#phase-1 #setup-env #vscode #git #nodejs #docker #yarn #obsidian
+#phase-1 #setup-env #tutorial #obsidian #vscode #git #nodejs #docker #yarn
