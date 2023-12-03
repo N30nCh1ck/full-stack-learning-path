@@ -5,9 +5,9 @@ To become a Full-Stack web developer in these day the best language to start wit
 #### 🌱 Phase 1
 1. [[Setup Env]]
 2. [[Basic Git]]
-3. HTML
-4. CSS
-5. JavaScript
+3. [[HTML]]
+4. [[CSS]]
+5. [[JavaScript]]
 6. Node Express JS (Rest API)
 7. Docker (Basic run images, volume)
 8. MySQL MongoDB (Require Docker)
