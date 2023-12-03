@@ -158,3 +158,6 @@ For YouTube embedded video, you cannot open it in your local environment. Thus, 
 ![[embed-youtube.png]]
 
 >Hint: [[HTML#Media]]
+
+
+#html #phase-1 #assignment #most-used-html 

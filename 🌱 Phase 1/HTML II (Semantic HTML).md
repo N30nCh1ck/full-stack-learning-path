@@ -174,3 +174,6 @@ The code above contain both `<figure>` and `<figcaption>` inside the `<aside>` w
 After you finish all assignment, the result should be something like the picture below.
 ![[semantic-html-webpage.png]]
 the whole lesson above is the most used case for each semantic HTML tag. which covers enough of what you have to know.
+
+
+#html #phase-1 #assignment #semantic-html 

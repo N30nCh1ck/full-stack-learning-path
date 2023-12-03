@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌱 Phase 1/HTML III (Most Used HTML).md",
+                "file": "🌱 Phase 1/HTML.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌱 Phase 1/HTML III (Most Used HTML).md",
+                "file": "🌱 Phase 1/HTML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌱 Phase 1/HTML III (Most Used HTML).md",
+                "file": "🌱 Phase 1/HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌱 Phase 1/HTML III (Most Used HTML).md"
+                "file": "🌱 Phase 1/HTML.md"
               }
             }
           }
@@ -166,11 +166,13 @@
   },
   "active": "2a282cf12fa94115",
   "lastOpenFiles": [
-    "🌱 Phase 1/HTML II (Semantic HTML).md",
-    "🌱 Phase 1/HTML I (HTML Template).md",
-    "🌱 Phase 1/HTML.md",
-    "📋 Learning Path.md",
     "🌱 Phase 1/HTML III (Most Used HTML).md",
+    "🌱 Phase 1/HTML I (HTML Template).md",
+    "🌱 Phase 1/HTML II (Semantic HTML).md",
+    "🌱 Phase 1/HTML.md",
+    "🌱 Phase 1/Setup Env.md",
+    "📋 Learning Path.md",
+    "🌱 Phase 1/Git I.md",
     "🌱 Phase 1/HTML 101.md",
     "🌠 Assets/video-audio.png",
     "🌠 Assets/simple-table.png",
@@ -185,8 +187,6 @@
     "🌠 Assets/line-logo.png.crdownload",
     "🌠 Assets/facebook-logo.png.crdownload",
     "🌠 Assets/what-is-semantic-html.png.crdownload",
-    "🌱 Phase 1/Setup Env.md",
-    "🌱 Phase 1/Git I.md",
     "🌱 Phase 1/JavaScript.md",
     "🌱 Phase 1/CSS.md",
     "🌱 Phase 1/Basic Git.md",

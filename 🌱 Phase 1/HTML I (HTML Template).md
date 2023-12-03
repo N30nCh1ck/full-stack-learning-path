@@ -49,3 +49,6 @@ button:hover {
 
 ![[greetings-html-101.png]]
 Finally, what you have to do is just write HTML code and make it display as same as possible the picture above. You can simply finish this by following the last 3 hints previously.
+
+
+#html #phase-1 #assignment #html-template 
