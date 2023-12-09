@@ -33,8 +33,6 @@ nav a {
 
 main {
   max-width: 800px;
-  height: 100%;
-  min-height: 70vh;
   margin: 20px auto;
   padding: 20px;
   background-color: #f8f8f8;
@@ -114,7 +112,25 @@ In `index.html` file you just created. add the following code inside the `<body>
 ```
 
 >Hint: [[HTML#`<header>`]]
-###### 3. Add Footer Tag
+
+###### 3. Add Nav Bar
+Adding `<nav>` inside the `<header>`, inside the `<nav>` add 3 list item `Home`, `About`, `services`, and `Contact`.
+```html
+...
+<nav>
+   <ul>
+      <li><a href="#item-1">Item 1</a></li>
+      <li><a href="#item-2">Item 2</a></li>
+      <li><a href="#item-3">Item 3</a></li>
+      <li><a href="#item-4">Item 4</a></li>
+   </ul>
+</nav>
+...
+```
+
+>Hint: [[HTML#`<nav>`]]
+
+###### 4. Add Footer Tag
 The `<footer>` is one of the most important tag in your website. Add it with a copy right text below `<header>` tag and see what happen.
 ```html
 ...
@@ -125,21 +141,21 @@ The `<footer>` is one of the most important tag in your website. Add it with a c
 
 >Hint: [[HTML#`<footer>`]]
 
-###### 4. Add Main & Section
+###### 5. Add Main & Section
 Try to add `<main>` tag between `<header>` and `<footer>` inside the `<main>` tag add `<section>` with some heading and paragraph.
 
 >For semantic reason you must use `<h2>` tag instead of `<h1>`, because the H tag in this situation have 2 levels deep (main -> section)
 
 >Hint: [[HTML#`<main>`]], [[HTML#`<section>`]]
 
-###### 5. Add 2 Articles
+###### 6. Add 2 Articles
 Adding 2  `<article>` inside `<section>`, which your `<article>` must contain both heading and paragraph. Consider which H tag you should use for semantic reasons too.
 
 Below the `<article>` tag add `<details>` and `<summary>` with some paragraph.
 
 >Hint: [[HTML#`<article>`]], [[HTML#`<details>` and `summary`]]
 
-###### 6. Time and Mark
+###### 7. Time and Mark
 Go to the paragraph inside the `<section>` tag under the `<p>` tag add the following code:
 ```html
 ...
@@ -152,7 +168,7 @@ Go to the paragraph inside the `<section>` tag under the `<p>` tag add the follo
 
 >Hint: [[HTML#`<time>`]], [[HTML#`<mark>`]]
 
-###### 7. Aside with Advertisement
+###### 8. Aside with Advertisement
 The simplest way to explain `<aside>` (including `<figure>` and `<figcaption>`) tag is the advertisement. Add the following code of `<aside>` below the `<section>` tag inside `<main>`.
 ```html
 ...

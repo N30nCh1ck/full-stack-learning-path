@@ -1,4 +1,4 @@
-HTML (Hypertext Markup Language) is a markup language used to structure content on the web using tags. It defines elements like headings, paragraphs, and links. These elements organize and format text, images, and multimedia for web page display.
+ HTML (Hypertext Markup Language) is a markup language used to structure content on the web using tags. It defines elements like headings, paragraphs, and links. These elements organize and format text, images, and multimedia for web page display.
 
 ## HTML Template
   
@@ -263,7 +263,7 @@ The `<mark>` tag represents the main content of the document. It should be uniqu
 ```
 
 
-## Most Used HTML Tags
+## Most Used HTML
 
 #### Text and Layout
 Here's an explanation of each of the HTML tags you must know along with examples:

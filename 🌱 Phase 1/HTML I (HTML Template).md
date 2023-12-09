@@ -1,4 +1,4 @@
-Create a default HTML template in VS Code. run your code and try to change the title tab to `HTML 101` as the picture below.
+Create a default HTML template in VS Code and then run your code. Try to change the title tab to `HTML 101` as the picture below.
 
 ![[html-101.png]]
 

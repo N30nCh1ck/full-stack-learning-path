@@ -4,34 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "a1cd539fe51533d4",
+        "id": "897f37d3354a30d5",
         "type": "tabs",
         "children": [
           {
-            "id": "2a282cf12fa94115",
+            "id": "a59713384a330955",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌱 Phase 1/HTML.md",
+                "file": "🌱 Phase 1/CSS III (At-Rules).md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "b81f7a94776d8e02",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "c69e0eb7026e9948",
+            "id": "3ba9b7b4c6a76c24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌱 Phase 1/HTML.md",
+                "file": "🌱 Phase 1/JavaScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌱 Phase 1/HTML.md",
+                "file": "🌱 Phase 1/CSS III (At-Rules).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌱 Phase 1/HTML.md",
+                "file": "🌱 Phase 1/CSS III (At-Rules).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌱 Phase 1/HTML.md"
+                "file": "🌱 Phase 1/CSS III (At-Rules).md"
               }
             }
           }
@@ -164,33 +158,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a282cf12fa94115",
+  "active": "a59713384a330955",
   "lastOpenFiles": [
-    "🌱 Phase 1/HTML III (Most Used HTML).md",
-    "🌱 Phase 1/HTML I (HTML Template).md",
-    "🌱 Phase 1/HTML II (Semantic HTML).md",
+    "🌱 Phase 1/CSS II (Properties and Values).md",
+    "🌱 Phase 1/CSS I (Connecting and Selector).md",
+    "🌱 Phase 1/CSS III (At-Rules).md",
+    "🌱 Phase 1/CSS IV (Functions).md",
+    "🌱 Phase 1/CSS IX (Typography).md",
+    "🌱 Phase 1/CSS V (Box Model).md",
+    "🌱 Phase 1/CSS VII (Flexbox).md",
+    "🌱 Phase 1/CSS VIII (Grid Layout).md",
+    "🌱 Phase 1/CSS VI (Positioning).md",
+    "🌱 Phase 1/CSS XII (Responsive).md",
+    "🌱 Phase 1/CSS XI (Animations).md",
+    "🌱 Phase 1/CSS X (Transitions).md",
     "🌱 Phase 1/HTML.md",
-    "🌱 Phase 1/Setup Env.md",
+    "Pasted image 20231208085850.png",
+    "Pasted image 20231208085149.png",
+    "Pasted image 20231208084945.png",
+    "Pasted image 20231207223449.png",
+    "🌱 Phase 1/HTML II (Semantic HTML).md",
+    "🌱 Phase 1/HTML I (HTML Template).md",
+    "🌱 Phase 1/CSS.md",
+    "🌱 Phase 1/HTML III (Most Used HTML).md",
+    "🌱 Phase 1/JSON DOM & BOM.md",
+    "🌱 Phase 1/JavaScript.md",
+    "🌱 Phase 1/JS Syntax I.md",
+    "🌱 Phase 1/JS Syntax II.md",
+    "🌱 Phase 1/JS Syntax III.md",
+    "🌱 Phase 1/JS Syntax IV.md",
+    "🌱 Phase 1/Basic Git.md",
     "📋 Learning Path.md",
-    "🌱 Phase 1/Git I.md",
-    "🌱 Phase 1/HTML 101.md",
     "🌠 Assets/video-audio.png",
     "🌠 Assets/simple-table.png",
     "🌠 Assets/form-submit.png",
     "🌠 Assets/order-and-unorder-list.png",
     "🌠 Assets/image-with-its-link.png",
     "🌠 Assets/text-wrapper.png",
-    "🌠 Assets/division-heading-paragraph.png",
-    "🌠 Assets/embed-youtube.png",
-    "🌠 Assets/semantic-html-webpage.png",
-    "🌠 Assets/semantic-html-web.png",
     "🌠 Assets/line-logo.png.crdownload",
     "🌠 Assets/facebook-logo.png.crdownload",
     "🌠 Assets/what-is-semantic-html.png.crdownload",
-    "🌱 Phase 1/JavaScript.md",
-    "🌱 Phase 1/CSS.md",
-    "🌱 Phase 1/Basic Git.md",
-    "🌱 Phase 1/Git II.md",
     "🌠 Assets/logo-vscode.png.crdownload",
     "🌠 Assets/obsidian-logo.png.crdownload",
     "🌠 Assets/logo-obsidian.png.crdownload",
@@ -198,11 +205,6 @@
     "🌠 Assets/logo-docker.png.crdownload",
     "🌠 Assets/nodejs-logo.png.crdownload",
     "🌠 Assets/git-logo.png.crdownload",
-    "Pasted image 20231130220342.png.md",
-    "Untitled.canvas",
-    "Others/git-branch.svg.md",
-    "git-pull-2.svg.md",
-    "🌱 Phase 1/🌱 Phase 1.md",
-    "Basic Git.md"
+    "Untitled.canvas"
   ]
 }
