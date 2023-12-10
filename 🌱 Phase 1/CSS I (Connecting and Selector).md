@@ -1,3 +1,7 @@
+There are 3 ways to connect CSS to HTML you should know (or not necessary?) before going to the Selector lesson by following the reference.
+
+>Ref: [[CSS#Connecting CSS to HTML]]
+
 First of all, you have to add `index.html` below to see how the CSS selector works.
 ```html
 <!DOCTYPE html>
@@ -109,7 +113,7 @@ Make every `first-line` of `<p>` is bold and bigger by set `font-size` to `18px`
 >Hint: [[CSS#Pseudo-element Selector]]
 
 After finish all of selector assignment. The results of your assignment should be something like this.
-![[Pasted image 20231207223449.png]]
+![[css-selector-results.png]]
 
 Try to understand how the CSS selector works and how it write in the right syntax.
 

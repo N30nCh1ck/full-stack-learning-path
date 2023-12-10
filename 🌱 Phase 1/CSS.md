@@ -797,6 +797,9 @@ CSS at-rules are instructions for CSS processors to control aspects of the styli
 ```css
 @media screen and (min-width: 600px) {
   /* Styles for screens wider than 600px */
+  body {
+    font-size: 18px;
+  }
 }
 ```
 
@@ -814,6 +817,11 @@ CSS at-rules are instructions for CSS processors to control aspects of the styli
 - **Purpose:** Defines animations using a set of keyframes.
 - **Usage:** Specifies intermediate stages in the CSS animation sequence.
 ```css
+/* Apply the animation to an element */
+.box {
+  animation: slide-in 1s ease-in; /* Animation name, duration, and easing function */
+}
+
 @keyframes slide-in {
   from {
     transform: translateX(-100%);
@@ -827,23 +835,31 @@ CSS at-rules are instructions for CSS processors to control aspects of the styli
 #### Example CSS Function
 CSS functions are an essential part of modern web development, providing dynamic and reusable solutions to various styling challenges. Here are some commonly used CSS functions.
 
-###### RGBA
+###### RGB & RGBA
 `rgba()` used for defining colors with red, green, blue values along with an alpha (transparency) value.
 ```css
 body {
-  background-color: rgba(255, 0, 0, 0.5); /* Semi-transparent red background */
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+h1 {
+  color: rgb(255,0,0);
 }
 ```
 
-###### HSL
-`hsl()` defines colors using hue, saturation, and lightness values.
+###### HSL & HSLA
+`hsla()` defines colors using hue, saturation, lightness, and alpha (transparency) values.
 ```css
+body {
+  background-color: hsla(290, 100%, 50%, 0.3);
+}
+
 p {
   color: hsl(120, 100%, 50%); /* Pure green color */
 }
 ```
 
-###### Calc
+###### CALC
 `calc()` performs calculations to determine a value. Useful for responsive design.
 ```css
 .box {
@@ -851,7 +867,7 @@ p {
 }
 ```
 
-###### Var
+###### VAR
 `var()` allows the use of variables in CSS to promote maintainability and ease of theming.
 ```css
 :root {
@@ -895,7 +911,7 @@ section {
 }
 ```
 
-###### Attr
+###### ATTR
 Retrieves the value of an attribute from an HTML element and uses it in CSS.
 ```css
 .item {
@@ -925,7 +941,7 @@ body {
 		- Introduction to the box model (content, padding, border, margin)
 		- Understanding box sizing
 		- Practical exercises to manipulate the box model
-	- Layout and Positioning
+	- Display and Position
 		- Display property (block, inline, inline-block)
 		- Position property (static, relative, absolute, fixed)
 		- Float and clear properties
@@ -945,11 +961,7 @@ body {
 		- Adding smooth transitions to elements
 		- Keyframe animations for more complex animations
 		- Creating engaging user experiences with CSS animations
-4. Responsive Design
-	- Media queries and their role in responsive design
-	- Building a responsive navigation bar
-	- Flexibility and fluidity in responsive layouts
-5. Project and Recap
-	- Integrating CSS into a simple project
-	- Review of key concepts covered in the course
-	- Tips for further learning and resources
+	- Responsive Design
+		- Media queries and their role in responsive design
+		- Building a responsive navigation bar
+		- Flexibility and fluidity in responsive layouts
