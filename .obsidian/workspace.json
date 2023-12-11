@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8e3bcf20ba57a340",
+        "id": "fde597d9001c91c7",
         "type": "tabs",
         "children": [
           {
-            "id": "7f3090eec8c6c7a6",
+            "id": "0742e14199509a81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌱 Phase 1/CSS.md",
+                "file": "🌱 Phase 1/CSS IV (Functions).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌱 Phase 1/CSS.md",
+                "file": "🌱 Phase 1/CSS IV (Functions).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌱 Phase 1/CSS.md",
+                "file": "🌱 Phase 1/CSS IV (Functions).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌱 Phase 1/CSS.md"
+                "file": "🌱 Phase 1/CSS IV (Functions).md"
               }
             }
           }
@@ -146,43 +146,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f3090eec8c6c7a6",
+  "active": "0742e14199509a81",
   "lastOpenFiles": [
-    "🌠 Assets/simple-display.png",
-    "🌠 Assets/animation-slide-in.gif",
-    "🌱 Phase 1/CSS.md",
-    "🌱 Phase 1/CSS IV (Functions).md",
     "🌱 Phase 1/CSS III (At-Rules).md",
-    "🌱 Phase 1/CSS I (Connecting and Selector).md",
+    "🌱 Phase 1/HTML III (Most Used HTML).md",
+    "🌱 Phase 1/HTML II (Semantic HTML).md",
+    "🌱 Phase 1/HTML I (HTML Template).md",
     "🌱 Phase 1/CSS II (Properties and Values).md",
-    "🌱 Phase 1/CSS IX (Typography).md",
-    "🌱 Phase 1/CSS VI (Positioning).md",
-    "🌠 Assets/custom-font-face.png",
-    "🌠 Assets/simple-positioning.png",
-    "🌠 Assets/media-screen-change.gif",
-    "media screen.gif",
+    "🌱 Phase 1/CSS I (Connecting and Selector).md",
     "🌱 Phase 1/CSS V (Box Model).md",
+    "🌱 Phase 1/CSS IX (Typography).md",
+    "🌱 Phase 1/CSS IV (Functions).md",
+    "🌱 Phase 1/CSS.md",
+    "🌠 Assets/bg-radial-gradient.png",
+    "🌠 Assets/url-bg-image.png",
+    "🌠 Assets/clamp-responsive-font.png",
+    "🌠 Assets/linear-gradient-box.png",
+    "🌠 Assets/using-css-var.png",
+    "🌠 Assets/calc-height-with-margin.png",
+    "Pasted image 20231211155116.png",
+    "📋 Learning Path.md",
+    "Pasted image 20231211152306.png",
+    "🌠 Assets/tip-change-color-format.png",
+    "🌠 Assets/3-color-boxes.png",
+    "🌱 Phase 1/CSS VI (Positioning).md",
     "🌱 Phase 1/CSS XII (Responsive).md",
     "🌱 Phase 1/CSS XI (Animations).md",
     "🌱 Phase 1/CSS X (Transitions).md",
     "🌱 Phase 1/CSS VIII (Grid Layout).md",
     "🌱 Phase 1/CSS VII (Flexbox).md",
-    "🌠 Assets/border-and-border-radius.png",
-    "🌠 Assets/margin-and-padding.png",
-    "🌠 Assets/width-and-height.png",
-    "🌠 Assets/width-and-height.png",
     "🌱 Phase 1/JavaScript.md",
     "🌱 Phase 1/HTML.md",
-    "🌱 Phase 1/HTML II (Semantic HTML).md",
-    "🌱 Phase 1/HTML I (HTML Template).md",
-    "🌱 Phase 1/HTML III (Most Used HTML).md",
     "🌱 Phase 1/JSON DOM & BOM.md",
     "🌱 Phase 1/JS Syntax I.md",
     "🌱 Phase 1/JS Syntax II.md",
     "🌱 Phase 1/JS Syntax III.md",
     "🌱 Phase 1/JS Syntax IV.md",
     "🌱 Phase 1/Basic Git.md",
-    "📋 Learning Path.md",
     "🌠 Assets/line-logo.png.crdownload",
     "🌠 Assets/facebook-logo.png.crdownload",
     "🌠 Assets/what-is-semantic-html.png.crdownload",

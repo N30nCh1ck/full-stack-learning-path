@@ -453,6 +453,7 @@ The `background` property in CSS is a shorthand property that allows you to set 
 ```css
 .shorthand {
   background: background-color background-image background-repeat background-attachment background-position;
+  
 }
 ```
 
@@ -811,6 +812,12 @@ CSS at-rules are instructions for CSS processors to control aspects of the styli
   font-family: 'CustomFont';
   src: url('custom-font.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('path-to-your-font.ttf') format('truetype');
+  unicode-range: U+0020-007E; /* Specify the Unicode range for English characters */
+}
 ```
 
 ###### @keyframes
@@ -864,18 +871,21 @@ p {
 ```css
 .box {
   width: calc(50% - 20px); /* 50% width minus 20 pixels */
+  height: calc(50vh + 30px);
 }
 ```
 
 ###### VAR
-`var()` allows the use of variables in CSS to promote maintainability and ease of theming.
+The `var()` function in CSS is used to insert the value of a custom property (also known as a CSS variable) into a style declaration. CSS variables are defined using the `--` prefix and can be used to store values that you want to reuse throughout your stylesheet.
 ```css
 :root {
-  --main-color: #3498db;
+  --base-width: 200px;
+  --multiplier: 2;
 }
 
 .box {
-  background-color: var(--main-color);
+  width: calc(var(--base-width) * var(--multiplier));
+  height: calc(100px + var(--base-width) * 0.5);
 }
 ```
 
@@ -885,6 +895,10 @@ p {
 body {
   background: linear-gradient(to right, #3498db, #2c3e50);
 }
+
+.box {
+  background: linear-gradient(to bottom right, #3498db, #2ecc71);
+}
 ```
 
 ###### Radial Gradient
@@ -893,21 +907,69 @@ Creates a radial gradient effect.
 body {
   background: radial-gradient(circle, #3498db, #2c3e50);
 }
+
+/* Elliptical gradient */
+.gradient-box-1 {
+  background: radial-gradient(ellipse at center, #3498db, #2ecc71);
+}
+
+/* Gradient with color stops */
+.gradient-box-2 {
+  background: radial-gradient(circle, #3498db 0%, #2ecc71 50%, #e74c3c 100%);
+}
+
+/* Repeating radial gradient */
+.gradient-box {
+  background: repeating-radial-gradient(circle, #3498db, #3498db 20px, #2ecc71 20px, #2ecc71 40px);
+}
 ```
 
 ###### URL
 `url()` specifies the location of a resource, such as an image, to be used in the styling.
 ```css
-section {
-  background: url('image.jpg') center/cover;
+/* Using url() for background image */
+.background-image-example {
+  background-image: url('path/to/your/image.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+}
+
+/* Using url() for font in @font-face rule */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('path/to/your/font.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Applying the custom font */
+.custom-font-example {
+  font-family: 'CustomFont', sans-serif;
 }
 ```
 
 ###### Transform
 `transform()` applies transformations to elements, such as rotation, scaling, and translation.
 ```css
-.content {
-  transform: translate(20px, 30px) rotate(45deg);
+/* Scale Transformation */
+.transform-example-1 {
+  transform: scale(1.5); /* Increases the size by 1.5 times */
+}
+
+/* Rotate Transformation */
+.transform-example-2 {
+  transform: rotate(45deg); /* Rotates the element by 45 degrees */
+}
+
+/* Translate Transformation */
+.transform-example-3 {
+  transform: translate(20px, 40px); /* Moves the element 20 pixels to the right and 40 pixels down */
+}
+
+/* Skew Transformation */
+.transform-example-4 {
+  transform: skew(30deg, 20deg); /* Skews the element by 30 degrees on the X-axis and 20 degrees on the Y-axis */
 }
 ```
 
@@ -919,49 +981,47 @@ Retrieves the value of an attribute from an HTML element and uses it in CSS.
 }
 ```
 
-###### Min and Max
-Selects the smaller or larger of two values, respectively.
+###### Clamp
+This function allows you to specify a minimum value, a maximum value, and a preferred value. The element's value will be clamped between the minimum and maximum values, but it will be as close to the preferred value as possible.
+
 ```css
-body {
-  width: min(50%, 200px);
-  height: max(100%, 300px);
+h1 {
+  font-size: clamp(16px, 2vw, 28px);
 }
 ```
 
+This code tells the browser to:
+	- Use a minimum font size of 16px.
+	- Use a preferred font size of 2% of the viewport width (vw).
+	- Use a maximum font size of 28px.
 
->`box-shadow` is not a CSS function, but it gives a result like a CSS function e.g. `box-shadow: 2px 2px 5px #888888;` to adds a shadow effect to an element.
+## Guides
 
-
-
-
-
-
-3. Guides
-	- Box Model
-		- Introduction to the box model (content, padding, border, margin)
-		- Understanding box sizing
-		- Practical exercises to manipulate the box model
-	- Display and Position
-		- Display property (block, inline, inline-block)
-		- Position property (static, relative, absolute, fixed)
-		- Float and clear properties
-	- Flexbox
-		- Introduction to Flexbox layout
-		- Properties: flex container and flex items
-		- Creating flexible and responsive layouts with Flexbox
-	- Grid Layout
-		- Introduction to CSS Grid
-		- Creating a grid layout with rows and columns
-		- Responsive design with Grid
-	- Typography
-		- Styling text with CSS
-		- Font properties (family, size, weight)
-		- Text alignment and decoration
-	- Transitions and Animations
-		- Adding smooth transitions to elements
-		- Keyframe animations for more complex animations
-		- Creating engaging user experiences with CSS animations
-	- Responsive Design
-		- Media queries and their role in responsive design
-		- Building a responsive navigation bar
-		- Flexibility and fluidity in responsive layouts
+- Box Model
+	- Introduction to the box model (content, padding, border, margin)
+	- Understanding box sizing
+	- Practical exercises to manipulate the box model
+- Display and Position
+	- Display property (block, inline, inline-block)
+	- Position property (static, relative, absolute, fixed)
+	- Float and clear properties
+- Flexbox
+	- Introduction to Flexbox layout
+	- Properties: flex container and flex items
+	- Creating flexible and responsive layouts with Flexbox
+- Grid Layout
+	- Introduction to CSS Grid
+	- Creating a grid layout with rows and columns
+	- Responsive design with Grid
+- Typography
+	- Styling text with CSS
+	- Font properties (family, size, weight)
+	- Text alignment and decoration
+- Transitions and Animations
+	- Adding smooth transitions to elements
+	- Keyframe animations for more complex animations
+	- Creating engaging user experiences with CSS animations
+- Responsive Design
+	- Media queries and their role in responsive design
+	- Building a responsive navigation bar
+	- Flexibility and fluidity in responsive layouts

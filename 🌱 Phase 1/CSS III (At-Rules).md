@@ -37,7 +37,7 @@ The First suggested device is `iPhone SE` for the smallest device then go to our
 - change your screen width and see the results.
 
 ![[media-screen-change.gif]]
-If you want background color like GIF above try `rgba(0,0,0,0.1)` and change each unit follow the color `red`, `green`, `blue` to `255`.
+If you want background color like GIF above try `rgba(0,0,0,0.1)` and change each unit follow the color `red`, `green`, `blue` to `255` such as for red `rgba(255, 0, 0, 0.1)`.
 
 >Hint: [[CSS#@media]]
 
@@ -77,6 +77,8 @@ Then try to call the "Custom Font" e.g. `font-family: "Custom Font";`. To see wh
 - inside `<p>` add `<strong>` to wrap some of both "English" and "Thai" language.
 
 ![[custom-font-face.png]]
+
+>Hint: [[CSS#@font-face]]
 
 ###### 4. Keyframes Animation
 - from the previous section, wrap the `<h1>` and `<p>` with `<div>` which use class like `box`.
