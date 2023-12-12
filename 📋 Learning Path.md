@@ -2,7 +2,7 @@ To become a Full-Stack web developer in these day the best language to start wit
 
 ![[open-graph-view.png]]
 
-#### 🌱 Phase 1
+#### 🌱 Phase I
 1. [[Setup Env]]
 2. [[Basic Git]]
 3. [[HTML]]
@@ -13,7 +13,7 @@ To become a Full-Stack web developer in these day the best language to start wit
 8. [[Node JS]]
 9. [[Typescript]]
 
-#### 🌳 Phase 2
+#### 🌳 Phase II
 1. App Layer DB Connection (MySQL, MongoDB)
 	1. Fastify + MongoDB (TS Functional)
 	2. NestJS + MySQL (TS OOP + DI)
@@ -32,7 +32,7 @@ To become a Full-Stack web developer in these day the best language to start wit
 6. Web Socket, Cron jobs, and Event
 7. Docker (Build images, networks)
 
-#### 🪵 Phase 3
+#### 🪵 Phase III
 1. Linux 101
 2. Nginx
 3. Web Hosting & Domain Name

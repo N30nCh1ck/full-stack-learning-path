@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fde597d9001c91c7",
+        "id": "518d5cdb9bce0791",
         "type": "tabs",
         "children": [
           {
-            "id": "0742e14199509a81",
+            "id": "640b122ad9768952",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌱 Phase 1/CSS IV (Functions).md",
+                "file": "🌱 Phase I/CSS.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
@@ -85,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌱 Phase 1/CSS IV (Functions).md",
+                "file": "🌱 Phase I/CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌱 Phase 1/CSS IV (Functions).md",
+                "file": "🌱 Phase I/CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌱 Phase 1/CSS IV (Functions).md"
+                "file": "🌱 Phase I/CSS.md"
               }
             }
           }
@@ -146,43 +148,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0742e14199509a81",
+  "active": "640b122ad9768952",
   "lastOpenFiles": [
-    "🌱 Phase 1/CSS III (At-Rules).md",
-    "🌱 Phase 1/HTML III (Most Used HTML).md",
-    "🌱 Phase 1/HTML II (Semantic HTML).md",
-    "🌱 Phase 1/HTML I (HTML Template).md",
-    "🌱 Phase 1/CSS II (Properties and Values).md",
-    "🌱 Phase 1/CSS I (Connecting and Selector).md",
-    "🌱 Phase 1/CSS V (Box Model).md",
-    "🌱 Phase 1/CSS IX (Typography).md",
-    "🌱 Phase 1/CSS IV (Functions).md",
-    "🌱 Phase 1/CSS.md",
-    "🌠 Assets/bg-radial-gradient.png",
-    "🌠 Assets/url-bg-image.png",
-    "🌠 Assets/clamp-responsive-font.png",
-    "🌠 Assets/linear-gradient-box.png",
-    "🌠 Assets/using-css-var.png",
-    "🌠 Assets/calc-height-with-margin.png",
-    "Pasted image 20231211155116.png",
+    "🌠 Assets/red-blue-boxes.png",
+    "🌠 Assets/html-class-shorthand-1.png",
+    "🌱 Phase I/CSS.md",
+    "🌱 Phase I/CSS V (Box Model).md",
+    "Pasted image 20231212223223.png",
+    "🌠 Assets/Pasted image 20231212222908.png",
+    "🌠 Assets/Pasted image 20231212225712.png",
+    "🌠 Assets/Pasted image 20231212221455.png",
+    "🌠 Assets/Pasted image 20231212215624.png",
+    "Private Schedules.md",
+    "🌠 Assets/Pasted image 20231212230559.png",
+    "box-sizing-comparation.png",
+    "🌠 Assets/html-class-shorthand-2.png",
+    "🌱 Phase I/CSS VI (Display and Position).md",
     "📋 Learning Path.md",
-    "Pasted image 20231211152306.png",
-    "🌠 Assets/tip-change-color-format.png",
-    "🌠 Assets/3-color-boxes.png",
-    "🌱 Phase 1/CSS VI (Positioning).md",
-    "🌱 Phase 1/CSS XII (Responsive).md",
-    "🌱 Phase 1/CSS XI (Animations).md",
-    "🌱 Phase 1/CSS X (Transitions).md",
-    "🌱 Phase 1/CSS VIII (Grid Layout).md",
-    "🌱 Phase 1/CSS VII (Flexbox).md",
-    "🌱 Phase 1/JavaScript.md",
-    "🌱 Phase 1/HTML.md",
-    "🌱 Phase 1/JSON DOM & BOM.md",
-    "🌱 Phase 1/JS Syntax I.md",
-    "🌱 Phase 1/JS Syntax II.md",
-    "🌱 Phase 1/JS Syntax III.md",
-    "🌱 Phase 1/JS Syntax IV.md",
-    "🌱 Phase 1/Basic Git.md",
+    "🌱 Phase I/CSS XII (Responsive).md",
+    "🌱 Phase I/CSS XI (Animations).md",
+    "🌱 Phase I/CSS X (Transitions).md",
+    "🌱 Phase I/CSS IX (Typography).md",
+    "🌱 Phase I/CSS VIII (Grid Layout).md",
+    "🌱 Phase I/CSS VII (Flexbox).md",
+    "🌱 Phase I/Setup Env.md",
+    "🌱 Phase I/Git I.md",
+    "🌱 Phase I/Git II.md",
+    "Untitled.md",
+    "Setup K8s A Local.md",
+    "🌱 Phase I/Basic Git.md",
+    "🌱 Phase I/CSS IV (Functions).md",
+    "🌱 Phase I/CSS III (At-Rules).md",
+    "🌱 Phase I/HTML III (Most Used HTML).md",
+    "🌱 Phase I/HTML II (Semantic HTML).md",
+    "🌱 Phase I/HTML I (HTML Template).md",
+    "🌱 Phase I/CSS II (Properties and Values).md",
+    "🌱 Phase I/CSS I (Connecting and Selector).md",
+    "🌱 Phase I/JavaScript.md",
     "🌠 Assets/line-logo.png.crdownload",
     "🌠 Assets/facebook-logo.png.crdownload",
     "🌠 Assets/what-is-semantic-html.png.crdownload",

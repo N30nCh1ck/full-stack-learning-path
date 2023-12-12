@@ -498,7 +498,7 @@ article {
 ```
 
 ###### Width & Height
-In CSS, the `width` and `height` properties are used to control the dimensions of elements. They determine the width and height of an element, respectively. These properties can be set using various units such as pixels, percentages, viewpoint units, and more.
+In CSS, the `width` and `height` properties are used to control the dimensions of elements. They determine the width and height of an element, respectively. These properties can be set using various units such as pixels, percentages, viewport units, and more.
 
 `px`
 ```css
@@ -992,36 +992,10 @@ h1 {
 
 This code tells the browser to:
 	- Use a minimum font size of 16px.
-	- Use a preferred font size of 2% of the viewport width (vw).
+	- Use a preferred font size of 2% of the viewport width `vw`.
 	- Use a maximum font size of 28px.
 
-## Guides
 
-- Box Model
-	- Introduction to the box model (content, padding, border, margin)
-	- Understanding box sizing
-	- Practical exercises to manipulate the box model
-- Display and Position
-	- Display property (block, inline, inline-block)
-	- Position property (static, relative, absolute, fixed)
-	- Float and clear properties
-- Flexbox
-	- Introduction to Flexbox layout
-	- Properties: flex container and flex items
-	- Creating flexible and responsive layouts with Flexbox
-- Grid Layout
-	- Introduction to CSS Grid
-	- Creating a grid layout with rows and columns
-	- Responsive design with Grid
-- Typography
-	- Styling text with CSS
-	- Font properties (family, size, weight)
-	- Text alignment and decoration
-- Transitions and Animations
-	- Adding smooth transitions to elements
-	- Keyframe animations for more complex animations
-	- Creating engaging user experiences with CSS animations
-- Responsive Design
-	- Media queries and their role in responsive design
-	- Building a responsive navigation bar
-	- Flexibility and fluidity in responsive layouts
+
+
+#css #phase-1 #documentation #css-selector #connecting-css #css-properties-and-values #css-at-rules #css-functions 
