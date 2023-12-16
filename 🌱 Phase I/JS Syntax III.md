@@ -1,6 +1,6 @@
 [[JavaScript]]
-	1. Debugging
-	2. Fetch
-	3. Errors
-	4. Async
-	5. JSON
+	1. Modules
+	2. Object
+	3. Date
+	4. String
+	5. Number

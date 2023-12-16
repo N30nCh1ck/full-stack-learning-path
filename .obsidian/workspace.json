@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "640b122ad9768952",
+            "id": "d7b03db37b01aec7",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌱 Phase I/CSS.md",
+                "file": "📋 Learning Path.md",
                 "mode": "source",
                 "source": false
               },
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌱 Phase I/CSS.md",
+                "file": "📋 Learning Path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌱 Phase I/CSS.md",
+                "file": "📋 Learning Path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌱 Phase I/CSS.md"
+                "file": "📋 Learning Path.md"
               }
             }
           }
@@ -148,43 +148,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "640b122ad9768952",
+  "active": "d7b03db37b01aec7",
   "lastOpenFiles": [
-    "🌠 Assets/red-blue-boxes.png",
-    "🌠 Assets/html-class-shorthand-1.png",
-    "🌱 Phase I/CSS.md",
-    "🌱 Phase I/CSS V (Box Model).md",
-    "Pasted image 20231212223223.png",
-    "🌠 Assets/Pasted image 20231212222908.png",
-    "🌠 Assets/Pasted image 20231212225712.png",
-    "🌠 Assets/Pasted image 20231212221455.png",
-    "🌠 Assets/Pasted image 20231212215624.png",
     "Private Schedules.md",
-    "🌠 Assets/Pasted image 20231212230559.png",
-    "box-sizing-comparation.png",
-    "🌠 Assets/html-class-shorthand-2.png",
-    "🌱 Phase I/CSS VI (Display and Position).md",
+    "🌱 Phase I/CSS.md",
+    "🌱 Phase I/CSS VI (Displays and Positioning).md",
+    "Setup K8s A Local.md",
+    "Setup K8s B Local.md",
+    "🌠 Assets/custom-css-display.png",
+    "🌠 Assets/position-fixed.png",
+    "🌠 Assets/position-absolute.png",
+    "🌠 Assets/position-static.png",
+    "🌠 Assets/position-relative.png",
+    "🌠 Assets/display-grid.png",
+    "🌠 Assets/flex-center-item.png",
+    "🌠 Assets/display-flex.png",
+    "🌠 Assets/display-inline-block.png",
+    "🌠 Assets/display-inline-and-block.png",
+    "🌱 Phase I/CSS V (Box Model).md",
+    "🌱 Phase I/CSS IX (Typography).md",
+    "🌱 Phase I/CSS II (Properties and Values).md",
+    "🌱 Phase I/CSS I (Connecting and Selector).md",
+    "🌱 Phase I/Databases.md",
+    "🌱 Phase I/Docker.md",
+    "🌱 Phase I/HTML III (Most Used HTML).md",
+    "🌱 Phase I/HTML II (Semantic HTML).md",
+    "🌱 Phase I/JS Syntax V.md",
+    "🌱 Phase I/JavaScript.md",
+    "🌱 Phase I/JS Syntax IV.md",
+    "🌱 Phase I/JS Syntax III.md",
+    "🌱 Phase I/JS Syntax II.md",
+    "🌱 Phase I/JS Syntax I.md",
+    "🌱 Phase I/CSS VIII (Grid Layout).md",
+    "🌱 Phase I/CSS VII (Flexbox).md",
+    "🌱 Phase I/CSS IV (Functions).md",
+    "🌱 Phase I/CSS III (At-Rules).md",
     "📋 Learning Path.md",
     "🌱 Phase I/CSS XII (Responsive).md",
     "🌱 Phase I/CSS XI (Animations).md",
-    "🌱 Phase I/CSS X (Transitions).md",
-    "🌱 Phase I/CSS IX (Typography).md",
-    "🌱 Phase I/CSS VIII (Grid Layout).md",
-    "🌱 Phase I/CSS VII (Flexbox).md",
-    "🌱 Phase I/Setup Env.md",
-    "🌱 Phase I/Git I.md",
-    "🌱 Phase I/Git II.md",
-    "Untitled.md",
-    "Setup K8s A Local.md",
-    "🌱 Phase I/Basic Git.md",
-    "🌱 Phase I/CSS IV (Functions).md",
-    "🌱 Phase I/CSS III (At-Rules).md",
-    "🌱 Phase I/HTML III (Most Used HTML).md",
-    "🌱 Phase I/HTML II (Semantic HTML).md",
-    "🌱 Phase I/HTML I (HTML Template).md",
-    "🌱 Phase I/CSS II (Properties and Values).md",
-    "🌱 Phase I/CSS I (Connecting and Selector).md",
-    "🌱 Phase I/JavaScript.md",
     "🌠 Assets/line-logo.png.crdownload",
     "🌠 Assets/facebook-logo.png.crdownload",
     "🌠 Assets/what-is-semantic-html.png.crdownload",

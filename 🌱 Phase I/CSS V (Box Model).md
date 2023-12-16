@@ -1,3 +1,5 @@
+>**Ref:** [[CSS#Width & Height]], [[CSS#Padding]], [[CSS#Border]], [[CSS#Margin]], [Learn CSS Box Model In 8 Minutes](https://www.youtube.com/watch?v=rIO5326FgPE) 
+
 **Default Template**
 - create a new directory with name `box-model` to separate your HTML and CSS files.
 - create a new HTML template with the title `Box Model` and link the CSS file for styling later.

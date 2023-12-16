@@ -155,6 +155,7 @@ This is what the results should be if you do it correctly.
 ![[video-audio.png]]
 
 For YouTube embedded video, you cannot open it in your local environment. Thus, just make sure the results of your screen are matched with the picture.
+
 ![[embed-youtube.png]]
 
 >Hint: [[HTML#Media]]
