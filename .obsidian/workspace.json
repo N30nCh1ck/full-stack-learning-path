@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "518d5cdb9bce0791",
+        "id": "8888332ec743e7e9",
         "type": "tabs",
         "children": [
           {
@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "baa22cc0ad50b4c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🌱 Phase I/JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📋 Learning Path.md",
+                "file": "🌱 Phase I/JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📋 Learning Path.md",
+                "file": "🌱 Phase I/JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📋 Learning Path.md"
+                "file": "🌱 Phase I/JavaScript.md"
               }
             }
           }
@@ -148,44 +161,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7b03db37b01aec7",
+  "active": "baa22cc0ad50b4c5",
   "lastOpenFiles": [
-    "Private Schedules.md",
     "🌱 Phase I/CSS.md",
-    "🌱 Phase I/CSS VI (Displays and Positioning).md",
-    "Setup K8s A Local.md",
-    "Setup K8s B Local.md",
-    "🌠 Assets/custom-css-display.png",
-    "🌠 Assets/position-fixed.png",
-    "🌠 Assets/position-absolute.png",
-    "🌠 Assets/position-static.png",
-    "🌠 Assets/position-relative.png",
-    "🌠 Assets/display-grid.png",
-    "🌠 Assets/flex-center-item.png",
-    "🌠 Assets/display-flex.png",
-    "🌠 Assets/display-inline-block.png",
-    "🌠 Assets/display-inline-and-block.png",
-    "🌱 Phase I/CSS V (Box Model).md",
-    "🌱 Phase I/CSS IX (Typography).md",
-    "🌱 Phase I/CSS II (Properties and Values).md",
-    "🌱 Phase I/CSS I (Connecting and Selector).md",
-    "🌱 Phase I/Databases.md",
-    "🌱 Phase I/Docker.md",
-    "🌱 Phase I/HTML III (Most Used HTML).md",
-    "🌱 Phase I/HTML II (Semantic HTML).md",
-    "🌱 Phase I/JS Syntax V.md",
     "🌱 Phase I/JavaScript.md",
+    "🌱 Phase I/HTML.md",
+    "🌱 Phase I/JS Syntax V.md",
     "🌱 Phase I/JS Syntax IV.md",
     "🌱 Phase I/JS Syntax III.md",
-    "🌱 Phase I/JS Syntax II.md",
     "🌱 Phase I/JS Syntax I.md",
-    "🌱 Phase I/CSS VIII (Grid Layout).md",
-    "🌱 Phase I/CSS VII (Flexbox).md",
-    "🌱 Phase I/CSS IV (Functions).md",
+    "🌱 Phase I/JS Syntax II.md",
     "🌱 Phase I/CSS III (At-Rules).md",
+    "🌱 Phase I/CSS IX (Typography).md",
+    "🌱 Phase I/Node JS.md",
+    "🌱 Phase I/JSON DOM & BOM.md",
+    "Untitled.md",
+    "🌱 Phase I/Typescript.md",
     "📋 Learning Path.md",
-    "🌱 Phase I/CSS XII (Responsive).md",
+    "🌠 Assets/grid-auto.png",
+    "🌱 Phase I/CSS VII (Flexbox).md",
+    "🌠 Assets/flex-container.png",
+    "🌱 Phase I/CSS VIII (Grid Layout).md",
+    "🌠 Assets/grid-nested.png",
+    "Pasted image 20231220001807.png",
+    "🌠 Assets/grid-sizing.png",
+    "🌠 Assets/grid-fr-units.png",
+    "🌠 Assets/grid-items-alignment.png",
+    "🌠 Assets/grid-content-alignment.png",
+    "🌠 Assets/grid-self-alignment.png",
+    "🌠 Assets/grid-gap-1.png",
+    "_Schedules.md",
+    "🌱 Phase I/CSS I (Connecting and Selector).md",
+    "🌱 Phase I/CSS X (Transitions).md",
     "🌱 Phase I/CSS XI (Animations).md",
+    "🌱 Phase I/CSS VI (Displays and Positioning).md",
+    "🌱 Phase I/Git I.md",
+    "🌱 Phase I/Git II.md",
+    "🌱 Phase I/Docker I (Simple Docker).md",
+    "🌱 Phase I/Docker.md",
     "🌠 Assets/line-logo.png.crdownload",
     "🌠 Assets/facebook-logo.png.crdownload",
     "🌠 Assets/what-is-semantic-html.png.crdownload",

@@ -34,10 +34,12 @@ To become a Full-Stack web developer in these day the best language to start wit
 
 #### 🪵 Phase III
 1. Linux 101
-2. Nginx
+2. Nginx & SSL/TLS
 3. Web Hosting & Domain Name
 4. Kubernetes (Local Environment)
-5. Cloud Computing (AWS, GCP, Azure)
+5. Jenkins & Jenkins X CI/CD
+6. Cloud Computing (AWS, Azure, GCP)
+
 
 **Suggestions and others**
 - languages: Go, Java, Python, and others

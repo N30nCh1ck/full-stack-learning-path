@@ -999,3 +999,337 @@ This code tells the browser to:
 
 
 #css #phase-1 #documentation #css-selector #connecting-css #css-properties-and-values #css-at-rules #css-functions 
+
+
+## Flexbox
+Flexbox is a CSS layout model that allows you to design flexible and efficient page layouts. It enables the creation of responsive designs by providing a set of properties to distribute space and align items within a container along a single axis or multiple axes.
+
+#### Flex Container
+The `display: flex` and `display: inline-flex` properties are used to create flex containers in CSS. These settings facilitate flexible and responsive layouts using Flexbox properties.
+
+**display: flex**
+```css
+.flex-container {
+  display: flex;
+}
+```
+- The `display: flex` property transforms the specified element into a block-level flex container.
+- The flex container lays out its children along the main axis (horizontal by default) and allows for flexible and responsive designs.
+
+**display: inline-flex**
+```css
+.inline-flex-container {
+  display: inline-flex;
+}
+```
+- The `display: inline-flex` property transforms the specified element into an inline-level flex container.
+- Inline flex containers fit within the content flow, making them suitable for inline placement within text or other inline elements.
+
+**Example**
+Consider the following HTML structure.
+```html
+<h1>Flex Container</h1>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+  commodi!
+</p>
+    
+<div class="flex-container">
+  <div class="flex-item">Item 1</div>
+  <div class="flex-item">Item 2</div>
+  <div class="flex-item">Item 3</div>
+</div>
+
+<span>Lorem ipsum dolor sit amet consectetur</span>
+
+<div class="inline-flex-container">
+  <div class="flex-item">Item A</div>
+  <div class="flex-item">Item B</div>
+  <div class="flex-item">Item C</div>
+</div>
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+```
+And the corresponding CSS:
+```css
+.flex-container {
+  display: flex;
+  border: 2px solid darkcyan;
+  margin-bottom: 20px;
+}
+
+.inline-flex-container {
+  display: inline-flex;
+  border: 2px solid darkcyan;
+}
+
+.flex-item {
+  padding: 10px;
+  margin: 5px;
+  background-color: lightcyan;
+}
+```
+
+Let's explain the example:
+- The first container (`flex-container`) is a block-level flex container.
+- The second container (`inline-flex-container`) is an inline-level flex container.
+- Adjust the styles and properties as needed to see the impact on the layout. Flex containers are versatile and powerful for creating flexible and responsive designs.
+
+#### Flex Flow
+CSS `flex-flow` is a shorthand property that combines both `flex-direction` and `flex-wrap`. It allows you to set the direction of the main axis and whether flex items should wrap onto new lines within a flex container.
+
+**flex-direction**
+```css
+.flex-container {
+  display: flex;
+  flex-direction: column; /* or row, row-reverse, column-reverse */
+}
+```
+- The `flex-direction` property sets the direction of the main axis within a flex container.
+- Values include `row` (horizontal, default), `row-reverse` (horizontal, reversed), `column` (vertical), and `column-reverse` (vertical, reversed).
+
+**flex-wrap**
+```css
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; /* or nowrap, wrap-reverse */
+}
+```
+- The `flex-wrap` property controls whether flex items should wrap onto new lines when there isn't enough space on the main axis.
+- Values include `nowrap` (items stay on a single line), `wrap` (items wrap onto new lines), and `wrap-reverse` (items wrap onto new lines in reverse order).
+
+**flex-flow**
+```css
+.flex-container {
+  display: flex;
+  flex-flow: row wrap; /* <flex-direction> <flex-wrap> */
+}
+```
+- `<flex-direction>` specifies the direction of the main axis and can be `row`, `row-reverse`, `column`, or `column-reverse`.
+- `<flex-wrap>` controls whether flex items should wrap and can be `nowrap`, `wrap`, or `wrap-reverse`.
+
+**Example**
+Consider the following HTML structure:
+```html
+<div class="flex-container">
+  <div class="flex-item">Item 1</div>
+  <div class="flex-item">Item 2</div>
+  <div class="flex-item">Item 3</div>
+  <div class="flex-item">Item 4</div>
+  <div class="flex-item">Item 5</div>
+</div>
+```
+And the corresponding CSS:
+```css
+.flex-container {
+  display: flex;
+  flex-flow: column wrap; /* Change direction to column and allow wrapping */
+}
+
+.flex-item { 
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: lightcyan;
+}
+```
+
+Let's explain the example:
+- `flex-flow: column wrap;` sets the main axis to be vertical (`column`) and allows flex items to wrap onto new lines when there is not enough space.
+- Adjust the container's height to observe how the items wrap onto new lines based on the available space.
+
+This flexibility allows you to easily control the layout of a flex container by combining the direction and wrapping properties in a single shorthand declaration.
+
+#### Flex Order
+The `order` property in CSS Flexbox allows you to control the visual order of flex items within a flex container. By default, flex items are laid out in the order they appear in the HTML source. However, the `order` property allows you to change this order without changing the source order.
+
+**order**
+```css
+.flex-item {
+  order: 2; /* Integer value, default is 0 */
+}
+```
+- The `order` property assigns a numerical value to a flex item, determining its order within the flex container.
+- Lower values are placed earlier, and higher values are placed later in the visual order. Items with the same order value maintain their source order.
+
+**Example**
+Consider the following HTML structure:
+```html
+<div class="flex-container">
+  <div class="flex-item" style="order: 3;">Item 1</div>
+  <div class="flex-item" style="order: 1;">Item 2</div>
+  <div class="flex-item" style="order: 2;">Item 3</div>
+</div>
+```
+And the corresponding CSS:
+```css
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: lightcyan;
+}
+```
+
+Let's explain the example:
+- The `order` property is applied directly in the HTML using inline styles.
+- Item 2 has the lowest order (1), so it appears first in the visual order.
+- Item 3 has the second-lowest order (2), and Item 1 has the highest order (3), so they appear in that order.
+
+You can experiment with different `order` values to rearrange flex items visually without changing their position in the HTML source. This property is particularly useful for creating flexible and responsive layouts.
+
+#### Flex Alignment
+CSS Flexbox provides several alignment properties that control the positioning of flex items within a flex container.
+
+###### Justify Content
+```css
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* or other values like flex-start, flex-end, center */
+}
+```
+- The `justify-content` property aligns flex items along the main axis of the flex container.
+- Example: Items are evenly spaced with space between them.
+
+###### Align Items
+```css
+.flex-container {
+  display: flex;
+  align-items: center; /* or other values like flex-start, flex-end, baseline, stretch */
+}
+```
+- The `align-items` property aligns flex items along the cross axis of the flex container.
+- Example: Items are centered along the vertical axis.
+
+###### Align Content
+```css
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between; /* or other values like flex-start, flex-end, center, space-around */
+}
+```
+- The `align-content` property aligns multiple lines of flex items when there is extra space in the cross axis.
+- Example: Items are evenly spaced along the vertical axis in a multi-line container.
+
+###### Align Self
+```css
+.flex-item {
+  align-self: flex-end; /* or other values like flex-start, center, baseline, stretch */
+}
+```
+- The `align-self` property allows an individual flex item to override the `align-items` value for its own alignment.
+- Example: One specific item is aligned to the flex-end.
+
+#### Flex Miscellaneous
+The following is an explanation of various miscellaneous properties in CSS Flexbox along with examples.
+
+###### flex-grow
+```css
+.flex-item {
+  flex-grow: 2; /* Default is 0 */
+}
+```
+- The `flex-grow` property defines the ability of a flex item to grow relative to the other flex items in the container.
+- In this example, the flex item will take up twice as much space as other items.
+
+###### flex-shrink
+```css
+.flex-item {
+  flex-shrink: 1; /* Default is 1 */
+}
+```
+- The `flex-shrink` property defines the ability of a flex item to shrink relative to the other flex items in the container.
+- In this example, the flex item can shrink, but at the default rate.
+
+###### flex-basis
+```css
+.flex-item {
+  flex-basis: 20%; /* Initial size of the flex item */
+}
+```
+- The `flex-basis` property sets the initial size of a flex item before free space is distributed according to the `flex-grow` and `flex-shrink` properties.
+- In this example, the initial size is set to 20%.
+
+###### gap
+The `gap` property in CSS is used in Flexbox (as well as in Grid layout) to set the spacing between items within a flex container. It provides a shorthand for both `row-gap` and `column-gap`
+```css
+.flex-container {
+  display: flex;
+  gap: 10px; /* Set the gap between items */
+  /* Alternatively, you can use the following for better browser support */
+  /* row-gap: 10px;
+     column-gap: 10px; */
+}
+```
+- The `gap: 10px;` property is applied to the flex container, creating a space of 10 pixels between each flex item.
+- The commented alternative using `row-gap` and `column-gap` provides the same result. It's useful when better browser support is required, as some older browsers might not fully support the `gap` property.
+
+###### Shorthand
+```css
+.flex-item {
+  flex: 1 0 auto; /* Shorthand for flex-grow, flex-shrink, and flex-basis */
+}
+```
+- The `flex` shorthand property combines `flex-grow`, `flex-shrink`, and `flex-basis` in one declaration.
+- In this example, it sets the item to grow, not shrink, and take its initial size.
+
+###### Min-Height and Max-Height
+```css
+.flex-item {
+  min-height: 100px;
+  max-height: 200px;
+}
+```
+- `min-height` sets the minimum height of a flex item.
+- `max-height` sets the maximum height of a flex item.
+
+###### Min-Width and Max-Width
+```css
+.flex-item {
+  min-width: 100px;
+  max-width: 200px;
+}
+```
+- `min-width` sets the minimum width of a flex item.
+- `max-width` sets the maximum width of a flex item.
+
+###### Example
+Consider the following HTML structure:
+```html
+<div class="flex-container">
+  <div class="flex-item">Item 1</div>
+  <div class="flex-item">Item 2</div>
+  <div class="flex-item">Item 3</div>
+</div>
+```
+And the corresponding CSS:
+```css
+.flex-container {
+  display: flex;
+  gap: 10px;
+}
+
+.flex-item {
+  flex: 1 0 auto;
+  min-width: 100px;
+  max-width: 200px;
+  min-height: 50px;
+  max-height: 150px;
+  background-color: lightcyan;
+}
+```
+
+Let's explain the example:
+- The `flex: 1 0 auto;` shorthand is used for flexibility properties.
+- `min-width`, `max-width`, `min-height`, and `max-height` are set to control the size range of the flex items.
+
+You can customize these properties based on your design needs, allowing for more control over the sizing and flexibility of flex items within a container.
+
+
+#css #phase-1 #documentation 
+

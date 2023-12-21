@@ -154,7 +154,7 @@ This is what the results should be if you do it correctly.
 - check the results are matched with the picture below.
 ![[video-audio.png]]
 
-For YouTube embedded video, you cannot open it in your local environment. Thus, just make sure the results of your screen are matched with the picture.
+For YouTube embedded video, you may cannot open it in your local environment. Thus, just make sure the results of your screen are matched with the picture.
 
 ![[embed-youtube.png]]
 
